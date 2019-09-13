@@ -1,0 +1,7 @@
+.btn--white {
+    @include button($color-grey-4, $color-white-0, $color-black-light, $fw-bold-0, $color-grey-1);
+}
+
+.btn--red {
+    @include button($color-white-0, $color-red-0, $color-red-0, $fw-bold-0, $color-red-1);
+}
