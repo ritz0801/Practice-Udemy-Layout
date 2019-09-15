@@ -39,6 +39,7 @@
 
             .tab-content {
                 margin-top: $mg-2;
+                position: relative;
                 
                 .card-title {
                     @include text($color-black-0, $fs-0, $fw-bold);

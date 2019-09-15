@@ -156,7 +156,8 @@ body {
         font-weight: normal;
         border: none; }
     .myCourse .course_content .myTab .tab-content {
-      margin-top: 25px; }
+      margin-top: 25px;
+      position: relative; }
       .myCourse .course_content .myTab .tab-content .card-title {
         color: #29303b;
         font-size: 15px;
@@ -190,6 +191,28 @@ body {
           color: #29303b;
           font-size: 15px;
           font-weight: bold; }
+
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 44%;
+  left: -2.5%;
+  width: 45px;
+  height: 45px;
+  border-radius: 50% !important;
+  background-color: #fff !important;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.1);
+  z-index: 999; }
+  .owl-prev span, .owl-next span {
+    color: #007791;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 22px; }
+  .owl-prev:focus, .owl-next:focus {
+    outline: none; }
+
+.owl-next {
+  left: unset;
+  right: -2.5%; }
 
 .btn--white {
   color: #686f7a;
