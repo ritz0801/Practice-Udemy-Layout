@@ -10,7 +10,13 @@ body {
   line-height: 1.43; }
 
 .myNavBar {
-  border-bottom: 1px solid #cacbcc; }
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background-color: #fff;
+  transition: all 1s; }
+  .myNavBar.headerClass {
+    border-bottom: 5px solid #007791; }
   .myNavBar .navbar-brand {
     flex-grow: 1; }
     .myNavBar .navbar-brand img {
@@ -213,6 +219,45 @@ body {
 .owl-next {
   left: unset;
   right: -2.5%; }
+
+.myStudent {
+  margin-top: 25px; }
+  .myStudent .student_content {
+    width: 80%;
+    margin: auto; }
+    .myStudent .student_content .card-title {
+      color: #29303b;
+      font-size: 15px;
+      font-weight: bold; }
+    .myStudent .student_content .card-text {
+      color: #686f7a;
+      font-size: 13px;
+      font-weight: normal; }
+    .myStudent .student_content .rating .rating_star {
+      color: #F4C150;
+      font-size: 13px;
+      font-weight: normal;
+      margin-right: 5px; }
+    .myStudent .student_content .rating span:nth-child(2) {
+      color: #686f7a;
+      font-size: 13px;
+      font-weight: bold;
+      margin-right: 2px; }
+    .myStudent .student_content .rating span:last-child {
+      color: #686f7a;
+      font-size: 13px;
+      font-weight: normal; }
+    .myStudent .student_content .price {
+      text-align: right; }
+      .myStudent .student_content .price .old-price {
+        color: #686f7a;
+        font-size: 13px;
+        font-weight: normal;
+        text-decoration: line-through; }
+      .myStudent .student_content .price .new-price {
+        color: #29303b;
+        font-size: 15px;
+        font-weight: bold; }
 
 .btn--white {
   color: #686f7a;
